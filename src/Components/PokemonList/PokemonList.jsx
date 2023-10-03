@@ -58,7 +58,7 @@ function PokemonList() {
                         )
                         :
 
-                        pokemonList.map((pokemon, idx) => <Pokemon key={idx} name={pokemon?.name} image={pokemon?.image} />)
+                        pokemonList.map((pokemon, idx) => <Pokemon id={pokemon?.id} key={idx} name={pokemon?.name} image={pokemon?.image} />)
                 }
             </div>
             <div className="controls">

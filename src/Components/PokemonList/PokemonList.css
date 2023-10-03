@@ -6,6 +6,7 @@
 }
 
 .custom-loader {
+  margin-bottom: 3rem;
     width: 50px;
     height: 50px;
     display: grid;

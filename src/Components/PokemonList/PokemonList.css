@@ -52,6 +52,15 @@
 }
 
 .controls button {
-  padding: .5 1rem;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #766DF4;
+  color: #fff;
   margin-left: 1rem;
+  cursor: pointer;
+}
+.controls button:disabled{
+  background-color: #dddddd;
+  color: #000;
 }

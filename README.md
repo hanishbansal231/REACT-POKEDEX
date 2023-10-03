@@ -1,4 +1,4 @@
-# Image Gallery
+# POKEDEX
 
 ### Setup instruction
 
